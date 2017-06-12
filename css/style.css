@@ -1,0 +1,58 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+.container-fluid {
+  margin:0!important;
+  padding: 0!important;
+  height: 100%!important;
+}
+.navbar{
+  padding-left: 20px;
+  margin-bottom:0!important;
+  background-color: #1A304B!important;
+  color: white!important;
+}
+.content h1:first-child{
+  margin: 0;
+  padding-top: 2em;
+  text-align: center;
+}
+.sect1, .sect2{
+  margin:0;
+  display: flex;
+  height:100%;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+.subSection{
+height:50%;
+background-color: rgba(0,0,0,.5);
+}
+.sect1{
+  /*background-color: #234065;*/
+  background-image:url("/img/cdi.jpg");
+  min-height: 100%;
+}
+.sect2{
+    background-color: #3D71B1;
+}
+
+/*.sect1 {
+  background-image: url("http://kurtisdesign.com/wp-content/uploads/2013/04/graphic-website-designer-ct.png");
+
+}
+.sect2{
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2015/03/Huge-Backgrounds-53.jpg");
+
+}*/
